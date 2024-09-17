@@ -57,7 +57,6 @@ vim.keymap.set("n","<leader>tt", function()
 end
 )
 vim.keymap.set("t","<Esc>", '<C-\\><C-n>')
---vim.keymap.set("n","<leader>pdf", "<cmd>!zathura %:p:r.pdf <CR>") 
 
 vim.keymap.set("n","<leader>fs", '<cmd> TexlabForward <CR>')
 vim.keymap.set("n","<leader>pd", function()
